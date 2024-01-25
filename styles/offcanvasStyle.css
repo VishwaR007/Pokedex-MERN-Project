@@ -1,0 +1,58 @@
+.offcanvasHeader {
+  background-color: wheat;
+}
+
+.offcanvasBody {
+  background-color: rgb(10, 10, 10);
+  background-image: url("/imgs/offcanvas/halloween-193532_1280.jpg");
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.offcanvasLogoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  border-bottom: 5px solid wheat;
+}
+.offcanvasLogo {
+  background-color: red;
+  width: fit-content;
+  padding: 10px 30px;
+  font-size: 100px;
+  border-radius: 80px;
+}
+
+.offcanvasUserName {
+}
+
+.offcanvasContentsBox {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.offcanvasContentsBoxBody {
+}
+.offcanvasGames {
+}
+.offcanvasLiked {
+}
+
+.offcanvasGames,
+.offcanvasLiked,
+.offcanvasChats {
+  border: 2px solid wheat;
+  padding: 5px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.offcanvasLogOut {
+  background-color: blue;
+  padding: 5px;
+}

@@ -1,0 +1,212 @@
+.advanceSearchMainContainer {
+  /* background-color: red; */
+}
+
+/* ----- advanceSearchMainContainer ----- */
+.advanceSearchContentBox {
+  background-image: url(/imgs/advanceSearch/halloween-2837936_1920.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
+  display: none;
+}
+
+.advanceSearchInfo {
+  display: inline;
+  background-color: rgb(255, 217, 0);
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 45%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* ----- advanceSearchContentBox ----- */
+.advanceSearchContentBoxTop {
+  display: flex;
+}
+.advanceSearchContentBoxBottom {
+  height: 100px;
+  display: flex;
+}
+
+/* ----------------- Top Started ---------------- */
+/* advanceSearchContentBoxTop */
+.advanceSearchTopLeftBox {
+  width: 50%;
+}
+.advanceSearchTopRightBox {
+  width: 45%;
+}
+
+/* ----------------- Top Left Started ---------------- */
+/* advanceSearchTopLeftBox */
+.advanceSearchTandWBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* advanceSearchTandWBox */
+.advanceSearchTandWHeading {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.advanceSearchTandWContent {
+  width: 80%;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: rgb(0, 0, 0, 51%);
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.advanceSearchTandWContentMainBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+}
+
+.advanceSearchTandWContentBoxBtn1 {
+  border-radius: 15px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  width: 130px;
+  height: 40px;
+  border: 2px solid black;
+}
+.advanceSearchTandWContentBoxBtn2 {
+  cursor: pointer;
+  font-size: 20px;
+  width: 30px;
+  border-radius: 20px;
+}
+.advanceSearchTandWContentBoxBtn3 {
+  cursor: pointer;
+  font-size: 20px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+/* ----------------- Top Left Ended ---------------- */
+
+/* ----------------- Top Right Started ---------------- */
+/* advanceSearchTopRightBox */
+/* Ability Box :  */
+.advanceSearchAbilityBox {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.advanceSearchAbilityHeading {
+}
+.advanceSearchAbilityContent {
+  height: 40px;
+  width: 300px;
+  font-size: 22px;
+}
+.advanceSearchAbilityContentOptions {
+}
+
+/* Height Box */
+/* advanceSearchHeightBox */
+.advanceSearchHeightBox {
+  height: 200px;
+}
+.advanceSearchHeightHeading {
+  margin: 0px 20px 20px 20px;
+}
+.advanceSearchHeightContent {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 40px;
+}
+.advanceSearchHeightContentImg {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+/* Weight Box */
+/* advanceSearchWeightBox */
+.advanceSearchWeightBox {
+  height: 200px;
+}
+.advanceSearchWeightHeading {
+  margin: 0px 20px 20px 20px;
+}
+.advanceSearchWeightContent {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 40px;
+}
+.advanceSearchWeightContentImg {
+  padding: 10px;
+  border-radius: 10px;
+  /* background-color: red; */
+  border: 2px solid white;
+  padding: 10px;
+}
+
+/* ----------------- Top Right Ended ---------------- */
+/* ----------------- Top Ended ---------------- */
+
+/* ----------------- Bottom Started ---------------- */
+/* Number Range */
+/* advanceSearchContentBoxBottom */
+.advanceSearchBottomNumberRange {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.advanceSearchNumberRangeHeading {
+}
+.advanceSearchNumberRangeContent {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.advanceSearchNumberRangeInputFrom {
+  font-size: 20px;
+  width: 80px;
+}
+.advanceSearchNumberRangeFToT {
+  font-size: 30px;
+}
+.advanceSearchNumberRangeInputTo {
+  font-size: 20px;
+  width: 80px;
+}
+
+/* Reset And Search */
+.advanceSearchBottomResetAndSearch {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.advanceSearchSearchBtn,
+.advanceSearchResetBtn {
+  font-size: 25px;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.advanceSearchResetBtn {
+}
+.advanceSearchSearchBtn {
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS File :  -->
+    <link rel="stylesheet" href="/styles/index.css" class="rel" />
+    <link rel="stylesheet" href="/styles/advanceSearchStyle.css" class="rel" />
+    <link rel="stylesheet" href="/styles/infoSectionStyle.css" class="rel" />
+    <link rel="stylesheet" href="/styles/whosThatPok.css" class="rel" />
+    <link rel="stylesheet" href="/styles/comparePok.css" class="rel" />
+    <link rel="stylesheet" href="/styles/loginPage.css" class="rel" />
+    <link rel="stylesheet" href="/styles/signupPage.css" class="rel" />
+    <link rel="stylesheet" href="/styles/offcanvasStyle.css" class="rel" />
+    <link rel="stylesheet" href="/styles/gamesHomePageStyle.css" class="rel" />
+    <link rel="stylesheet" href="/styles/likedPoksPage.css" class="rel" />
+    <link rel="stylesheet" href="/styles/chats.css" class="rel" />
+    <!-- Google Fonts :  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap : -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <div class="mainContainer"></div>
+
+    <!-- JS File :  -->
+    <script src="jsonFile.js"></script>
+    <script src="index2.js"></script>
+
+    <!-- Bot :  -->
+    <script type="text/javascript">
+      var AvaamoChatBot = function (t) {
+        function o(t, o) {
+          var n = document.createElement("script");
+          n.setAttribute("src", t),
+            n.setAttribute("id", "avm-web-channel"),
+            (n.onload = o),
+            document.body.appendChild(n);
+        }
+        return (
+          (this.options = t || {}),
+          (this.load = function (t) {
+            o(this.options.url, function () {
+              window.Avaamo.addFrame(),
+                t && "function" == typeof t && t(window.Avaamo);
+            });
+          }),
+          this
+        );
+      };
+      var chatBox = new AvaamoChatBot({
+        url: "https://c3.avaamo.com/web_channels/aefa653a-7aa7-469d-b1ae-4afbf7ea54c6",
+      });
+      chatBox.load({ abc: "abc" });
+    </script>
+  </body>
+</html>

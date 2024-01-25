@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/forgotPassStepOne.css" class="rel" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="subContainer">
+        <div class="navbar">
+          <h1 class="navHeading">Forgot Passeord</h1>
+        </div>
+        <div class="body">
+          <form class="resetStepOneForm" action="">
+            <label for="inputEmail" class="labelInputEmailClass"
+              >Please Enter the Email :
+            </label>
+            <input
+              type="email"
+              id="inputEmail"
+              class="inputEmailClass"
+              placeholder="Enter e-mail"
+              autocomplete="off"
+            />
+            <button type="submit" class="searchBtn">Search</button>
+          </form>
+          <div class="goBackDivClass">
+            <a href="http://localhost:8080/logIn" class="goBackLink"
+              >Go Back To LogIn</a
+            >
+          </div>
+        </div>
+        <div class="footer">
+          <p class="positiveResponse">
+            Please check your email to reset password.
+          </p>
+          <p class="negativeResponse">Please enter a valid credentials.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/forgotPassStepOne.js"></script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+.pokChatMainMainContainer {
+  height: 100vh;
+  background-image: url("/imgs/likedPoksPage/pexels-pixabay-315191.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.pokChatMainContainerNavBar {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.pokChatMainContainerNavBarHeading {
+}
+.pokChatMainContainerNavBarClose {
+  cursor: pointer;
+}
+
+.pokChatMainContainer {
+  display: flex;
+  width: 98%;
+  height: 85%;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px double white;
+  margin-bottom: 20px;
+}
+
+/* Main Container Childs :  */
+.pokChatLeftMain {
+  background-color: rgba(232, 223, 223, 0.248);
+  border-right: 2px double white;
+  width: 25%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.pokChatRightMain {
+  width: 75%;
+  padding-left: 10px;
+}
+
+/* Left Childs :  */
+.pokChatLeftSearchBar {
+  height: 8%;
+  width: 98%;
+  font-size: 20px;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+}
+.pokChatLeftContentBox {
+  height: 90%;
+  width: 98%;
+  margin: 3px;
+  cursor: pointer;
+}
+.pokChatLeftContentBoxItemContainer {
+  height: 16%;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 2px solid wheat;
+}
+.pokChatLeftContentBoxItemContainerLogo {
+  border: 2px solid black;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 20px;
+  font-size: 25px;
+  background-color: wheat;
+  color: black;
+}
+.pokChatLeftContentBoxItemContainerName {
+  padding: 2px;
+}
+
+/* Right Childs :  */
+.pokChatRightNav {
+  height: 10%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.753);
+  color: black;
+}
+
+.pokChatRightBody {
+  height: 80%;
+}
+
+.pokChatRightFooter {
+  height: 8%;
+  width: 100%;
+}
+
+/* Righnt Nav Childs :  */
+.pokChatRightNavLogoAndNameBox {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 20px;
+}
+.pokChatRightNavLogo {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 0px 20px;
+  font-size: 35px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.pokChatRightNavName {
+}
+
+/* Right Body Childs :  */
+.pokChatRightBodyMainMsgContainer {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.chatMsgDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.chatMsg {
+  border: 2px double black;
+  padding: 8px;
+  min-width: 100px;
+  font-size: 25px;
+  background-color: wheat;
+  color: black;
+  border-radius: 20px 20px 20px 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+/* Right Footer Childs :  */
+.pokChatRightFooterMainContainer {
+  display: none;
+}
+
+.pokChatRightFooterInput {
+  height: 95%;
+  width: 90%;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 2px 20px;
+  background-color: rgba(255, 255, 255, 0.753);
+  color: black;
+}
+
+.pokChatRightFooterSendBtn {
+  height: 95%;
+  font-size: 30px;
+  border: 2px solid black;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background-color: wheat;
+  color: black;
+  cursor: pointer;
+}

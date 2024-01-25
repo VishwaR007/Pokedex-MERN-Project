@@ -1,0 +1,138 @@
+.pokCompareMainMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/imgs/comparePok/carnage_marvel_vs_venom_hd_venom_let_there_be_carnage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  /* animation: backgroundImgChanger 1s infinite ease-in-out; */
+}
+
+@keyframes backgroundImgChanger {
+  0% {
+    background-image: url(/imgs/comparePok/carnage_marvel_vs_venom_hd_venom_let_there_be_carnage.jpg);
+  }
+  30% {
+    background-image: url(/imgs/comparePok/FAj0ZJ4VQAAPUNr.jpg);
+  }
+  50% {
+    background-image: url(/imgs/comparePok/wp7384322.webp);
+  }
+  80% {
+    background-image: url(/imgs/comparePok/pexels-neosiam-673862.jpg);
+  }
+}
+
+.pokCompareMainContainer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Under Main Box : */
+.pokCompareNavbar {
+  font-size: 30px;
+}
+
+.pokCompareBody {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Under Navbar : */
+.pokCompareNavbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.pokCompareNavbarLogo {
+}
+.pokCompareNavbarHeading {
+  font-size: 30px;
+}
+.pokCompareNavbarClose {
+  font-size: 30px;
+  border: 2px solid wheat;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Under Body Box : */
+.pokCompareLeftBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pokCompareMiddleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokCompareRightBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left Box : */
+.pokCompareLeftBoxSelect {
+  width: 250px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+/* Middle Box : */
+.pokCompareMiddleBoxImage {
+  display: none;
+  animation: vsAnimation 2s infinite ease-in-out;
+}
+
+@keyframes vsAnimation {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(80deg);
+  }
+}
+
+.pokCompareMiddleBoxStartBtn {
+  font-size: 35px;
+  padding: 2px 40px;
+  border-radius: 20px;
+}
+
+.pokCompareMiddleBoxReStartBtn {
+  font-size: 35px;
+  padding: 2px 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.pDrawCompare {
+  color: white;
+  padding: 10px;
+}
+
+/* Right Box : */
+.pokCompareRightBoxSelect {
+  width: 250px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/forgotPassStepTwo.css" class="rel" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="subContainer">
+        <div class="navbar">
+          <h1 class="navHeading">Reset Password</h1>
+        </div>
+        <div class="body">
+          <form class="resetStepTwoForm" action="">
+            <label for="inputEmail" class="labelInputEmail">Email : </label>
+            <input
+              type="email"
+              id="inputEmail"
+              class="inputEmailClass"
+              placeholder="Enter Email"
+              required
+            />
+            <label for="inputOTP" class="labelInputOTP">OTP : </label>
+            <input
+              type="number"
+              id="inputOTP"
+              class="inputOTPClass"
+              placeholder="Enter the OTP"
+              required
+            />
+            <p class="passOTPValidator">OTP didi not match.</p>
+            <label for="inputPassword" class="labelInputPassword"
+              >New Password :
+            </label>
+            <input
+              type="password"
+              id="inputPassword"
+              class="inputPasswordClass"
+              placeholder="Enter New Passeord"
+              required
+            />
+            <p class="pokSignupPasswordImputValidationText"></p>
+            <label for="inputReEnterPassword" class="labelInputReEnterPassword"
+              >Re-Enter Password :
+            </label>
+            <input
+              type="password"
+              id="inputReEnterPassword"
+              class="inputReEnterPasswordClass"
+              placeholder="Re-Enter New Passeord"
+              required
+            />
+            <p class="passReEnterValidator">Password did not match</p>
+            <button type="submit" class="submitBtn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="/forgotPassStepTwo.js"></script>
+  </body>
+</html>

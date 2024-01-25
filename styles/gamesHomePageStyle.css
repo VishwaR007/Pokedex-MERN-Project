@@ -1,0 +1,62 @@
+.pokGmaesDisplayMainMainContainer {
+  height: 100vh;
+  background-image: url("/imgs/likedPoksPage/pexels-pixabay-315191.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.pokGmaesDisplayMainContainerNavBar {
+  height: 15%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pokGmaesDisplayMainContainerNavBarHeading {
+}
+.pokGmaesDisplayMainContainerNavBarClose {
+  cursor: pointer;
+}
+
+.pokGmaesDisplayMainContainer {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(90, 77, 77, 0.521);
+  border-radius: 20px;
+  border: 1px double white;
+}
+
+.gameMainCard {
+  height: 300px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.gameTopBox {
+  height: 80%;
+}
+
+.gameTopBox img {
+  width: 350px;
+  height: 220px;
+}
+
+.gameBottomBox {
+}
+
+.gameBottomBox h2 {
+}

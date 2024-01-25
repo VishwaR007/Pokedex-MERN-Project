@@ -1,0 +1,52 @@
+/* Info Main Container :  */
+.whosThatPokMianMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.whosThatPokMianContainer {
+  background-color: rgba(188, 205, 222, 0.24);
+  border: 2px solid black;
+  width: 75%;
+}
+
+/* Navbar Container :  */
+.whosThatPokMianContainerNavBar {
+  background-color: rgb(3 0 105 / 81%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.whosThatPokMianContainerNavBarHeading {
+}
+.whosThatPokMianContainerNavBarClose {
+  border: 2px solid rgb(245, 240, 240);
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+/* Image Container :  */
+.whosThatPokMianContainerImageDiv {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whosThatPokMianContainerImageDivImg {
+  height: 550px;
+}
+
+/* Title Container :  */
+.whosThatPokMianContainerTitleDiv {
+  background-color: #9a0000;
+  color: white;
+  text-align: center;
+}
+.whosThatPokMianContainerTitleDivText {
+}

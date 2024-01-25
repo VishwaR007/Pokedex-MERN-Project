@@ -1,0 +1,42 @@
+.pokLikedPoksMainMainContainer {
+  min-height: 100vh;
+  background-image: url("/imgs/likedPoksPage/pexels-pixabay-315191.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.pokLikedPoksMainContainerNavBar {
+  height: 15%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.pokLikedPoksMainContainerNavBarHeading {
+}
+.pokLikedPoksMainContainerNavBarClose {
+  cursor: pointer;
+}
+
+.pokLikedPoksMainContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 80%;
+  min-height: 70vh;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: rgba(90, 77, 77, 0.521);
+  border-radius: 20px;
+  border: 1px double white;
+  margin-bottom: 50px;
+}
