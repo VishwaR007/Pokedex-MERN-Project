@@ -27,6 +27,9 @@ app.use(express.static(__dirname + "/"));
 app.use(express.json());
 
 // Getting the request and sending out html file as a response :
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "logIn.html"));
+});
 app.get("/logIn", (req, res) => {
   res.sendFile(path.join(__dirname, "logIn.html"));
 });
